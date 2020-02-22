@@ -100,6 +100,7 @@ ul, p, h1, h3, h4, h5, h6, body{
 }
 
 .two-columns__brief{
+    margin-top: 0;
     width: 175px;
     line-height: 1.2;
     font-size: 18px;
@@ -119,7 +120,7 @@ ul, p, h1, h3, h4, h5, h6, body{
     margin-bottom: 30px;
 }
 
-.two-columns__paragraph:first-child{
+.two-columns__paragraph:last-child{
     margin-bottom: 0;
 }
 
@@ -137,8 +138,7 @@ ul, p, h1, h3, h4, h5, h6, body{
     line-height: 69px;
     font-size: 60px;
     font-weight: 700;
-    max-width: 60%;
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
     margin-bottom: 20px;
     text-align: center;
@@ -147,8 +147,7 @@ ul, p, h1, h3, h4, h5, h6, body{
     line-height: 34px;
     font-size: 24px;
     font-weight: 400;
-    max-width: 60%;
-    width: 100%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
 }
@@ -157,13 +156,11 @@ ul, p, h1, h3, h4, h5, h6, body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1100px;
-    width: 100%;
+    width: 1100px;
     margin: 0 auto;
 }
 .table__cell{
-    max-width: 250px;
-    width: 100%;
+    width: 250px;
     margin-top: 60px;
 }
 .table__heading{
@@ -181,21 +178,21 @@ ul, p, h1, h3, h4, h5, h6, body{
 }
 /* Digits css end */
 
-/* Fayman css start */
+/* feynman css start */
 .feynman{
     background: #f2f2f2;
     padding-top: 100px;
-    min-height: 790px;
+    min-height: 890px;
     position: relative;
 }
 
-.fayman__main-illustration{
+.feynman__main-illustration{
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.fayman__title{
+.feynman__title{
     line-height: 1.15;
     font-size: 120px;
     font-weight: 700;
@@ -207,7 +204,7 @@ ul, p, h1, h3, h4, h5, h6, body{
     z-index: 1;
 }
 
-.fayman__subtitle{
+.feynman__subtitle{
     line-height: 51px;
     font-size: 36px;
     font-weight: 400;
@@ -217,7 +214,7 @@ ul, p, h1, h3, h4, h5, h6, body{
     z-index: 1;
 }
 
-.fayman__link{
+.feynman__link{
     line-height: 51px;
     font-size: 36px;
     font-weight: 400;
@@ -228,7 +225,7 @@ ul, p, h1, h3, h4, h5, h6, body{
     right: 48px;
     z-index: 2;
 }
-/* Fayman css end */
+/* feynman css end */
 
 /* Kaufman css start */
 .kaufman{
@@ -247,7 +244,7 @@ ul, p, h1, h3, h4, h5, h6, body{
 .table__heading_theme_dark, .table__text_theme_dark{
     color: #ffffff;
 }
-.table__theme_dark{
+.table_theme_dark{
     position: relative;
     z-index: 1;
 }
@@ -258,10 +255,10 @@ ul, p, h1, h3, h4, h5, h6, body{
 }
 
 .kaufman__triangle{
-    max-width: 877px;
-    width: 100%;
+    width: 877px;
+    height: 877px;
     position: absolute;
-    top: 0px;
+    top: 0;
     right: -210px;
 }
 /* Kaufman css end */
@@ -284,7 +281,7 @@ ul, p, h1, h3, h4, h5, h6, body{
     min-height: 250px;
 }
 
-.footer__column_content-copyright{
+.footer__column_content_copyright{
     flex-basis: 711px;
     display: flex;
     flex-flow: column;
@@ -299,6 +296,7 @@ ul, p, h1, h3, h4, h5, h6, body{
 
 .footer__column-links{
     list-style: none;
+    margin-bottom: 16px;
 }
 
 .footer__column-heading{
