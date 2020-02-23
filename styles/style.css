@@ -238,7 +238,7 @@ ul, p, h1, h3, h4, h5, h6, body{
     z-index: 1;
 }
 
-.section__title_theme_dark,.section__subtitle_theme_dark ,
+.section-title_theme_dark,.section-subtitle_theme_dark ,
 .table__heading_theme_dark, .table__text_theme_dark{
     color: #ffffff;
 }
@@ -257,7 +257,7 @@ ul, p, h1, h3, h4, h5, h6, body{
     height: 877px;
     position: absolute;
     top: 0;
-    right: -210px;
+    right: -125px;
 }
 /* Kaufman css end */
 
