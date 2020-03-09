@@ -7,26 +7,17 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/section__common/section_common.css);
 @import url(../blocks/table/table.css);
+@import url(../blocks/rotation/rotation.css);
+@import url(../blocks/techniques/techniques.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/oakley/oakley.css);
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/link__animation/link__animation.css);
 *{
     box-sizing: border-box;
 }
-ul, p, h1, h3, h4, h5, h6, body{
+ul, p, h1, h2, h3, h4, h5, h6, body{
     margin: 0;
     padding: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
