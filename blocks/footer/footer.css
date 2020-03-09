@@ -1,0 +1,15 @@
+/*Footer css start*/
+@import url("./__author/footer__author.css");
+@import url("./__column-heading/footer__column-heading.css");
+@import url("./__column-links/footer__column-links.css");
+@import url("./__columns/footer__columns.css");
+@import url("./__content_copyright/footer__column_content_copyright.css");
+@import url("./__links/footer__links.css");
+@import url("./__social-icon/footer__social-icon.css");
+@import url("./__logo/logo_place_footer.css");
+.footer{
+    padding: 60px 0 40px 0;
+    background-color: #1f1f1f;
+    min-height: 350px;
+}
+/*Footer css end*/
