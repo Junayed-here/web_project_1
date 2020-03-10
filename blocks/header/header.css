@@ -5,6 +5,7 @@
 @import url(./__main-illustration/header__main-illustration.css);
 @import url(./__square-pic/header__square-pic.css);
 .header {
+    box-sizing: border-box;
     height: 100vh;
     min-height: 600px;
     max-height: 756px;

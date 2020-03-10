@@ -1,8 +1,0 @@
-.cards{
-    width: 920px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 60px 100px;
-    margin-top: 60px;
-}

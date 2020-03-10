@@ -1,5 +1,6 @@
 /* Digits css start */
 .digits{
     margin: 100px auto;
+    box-sizing: border-box;
 }
 /* Digits css end */

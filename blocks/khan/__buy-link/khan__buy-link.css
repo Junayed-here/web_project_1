@@ -6,4 +6,9 @@
     vertical-align: top;
     color: #2f80ed;
     text-decoration: none;
+    opacity: .5;
+    transition: opacity 1s ease-in-out;
+}
+.khan__buy-link:hover{
+    opacity: 1;
 }

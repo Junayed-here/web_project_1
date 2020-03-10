@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning how to learn</title>
-    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <div class="root">
+    <div class="page">
         <header class="header">
             <img class="logo logo_place_header" src="images/logo.png" alt="Practicum">
             <h1 class="header__title">Learning how to learn</h1>
@@ -17,7 +16,7 @@
                 <a href="#" class="header__link link__animation">Learn more →</a>
             </p>
             <img src="images/on_the_edge.png" alt="Main illustration" class="header__main-illustration">
-            <div class="header__square-pic"></div>
+            <div class="header__square-pic rotation"></div>
         </header>
         <main class="content">
             <section class="description">
@@ -33,7 +32,7 @@
                             its usefulness.
                         </p>
                         <p class="two-columns__paragraph ">
-                            <span class="two-columns__span-bold">Conclusion: </span>
+                            <span class="two-columns__span-accent">Conclusion: </span>
                             Knowing how to study is absolutely essential, but for some reason, this point is too often
                             overlooked. So, what can we do to remedy this?
                         </p>
@@ -48,68 +47,66 @@
             <section class="techniques">
                 <h2 class="section-title">Learning Techniques</h2>
                 <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
-                <div class="cards">
-                    <div class="cards__item">
+                <ul class="cards">
+                    <li class="cards__item">
                         <img class="cards__image" src="images/attention.png" alt="Two Ways of Thinking">
                         <h3 class="cards__title">Two Ways of Thinking</h3>
                         <p class="cards__description">Deep understanding comes from being able to toggle
                             back and forth between focused and diffused thinking.</p>
-                    </div>
-                    <div class="cards__item">
+                    </li>
+                    <li class="cards__item">
                         <img class="cards__image" src="images/recall.png" alt="Recall">
                         <h3 class="cards__title">Recall</h3>
                         <p class="cards__description">Improving your ability to remember key bits of
                             information help to connect different part of the brain.</p>
-                    </div>
-                    <div class="cards__item">
+                    </li>
+                    <li class="cards__item">
                         <img class="cards__image" src="images/interliving.png" alt="Interleaving">
                         <h3 class="cards__title">Interleaving</h3>
                         <p class="cards__description">When you learn multiple skills at the same time,
                             they reinforce each other.</p>
-                    </div>
-                    <div class="cards__item">
+                    </li>
+                    <li class="cards__item">
                         <img class="cards__image" src="images/question.png" alt="Questions">
                         <h3 class="cards__title">Questions</h3>
                         <p class="cards__description">When listening to your teacher, think up a good question,
                             something that you're really itching to know.</p>
-                    </div>
-                    <div class="cards__item">
+                    </li>
+                    <li class="cards__item">
                         <img class="cards__image" src="images/competence.png" alt="Illusion of Competence">
                         <h3 class="cards__title">Illusion of Competence</h3>
                         <p class="cards__description">Test yourself, write it down, tell other people, and
                             repeat the process in different settings. Only then can you be truly certain
                             you've understood something.</p>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </section>
             
             <section class="video">
                 <h2 class="section-title">TED talks </h2>
                 <p class="section-subtitle">For lovers of procrastination</p>
-                <div class="video__iframes">
-                    <div class="video__iframe">
+                <ul class="video__iframes">
+                    <li class="video__iframe">
                         <iframe
                                 src="https://www.youtube.com/embed/5MgBikgcWnY"
                                 width="515"
                                 height="316"
-                                frameborder="0"
                                 allowfullscreen
                         ></iframe>
-                    </div>
-                    <div class="video__iframe">
+                    </li>
+                    <li class="video__iframe">
                         <iframe
                                 src="https://www.youtube.com/embed/arj7oStGLkU"
                                 width="515"
                                 height="316"
-                                frameborder="0"
                                 allowfullscreen
                         ></iframe>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </section>
     
             <section class="oakley">
-                <div class="two-columns oakley__two-columns">
+                <div class="two-columns">
                     <h2 class="two-columns__brief">Barbara Oakley’s story.</h2>
                     <div class="two-columns__main-text">
                         <p class="two-columns__paragraph">
@@ -127,7 +124,7 @@
             </section>
             
             <section class="feynman">
-                <img src="images/feynman.png" alt="Feynman" class="feynman__main-illustration">
+                <div class="feynman__main-illustration"></div>
                 <h2 class="feynman__title">The Feynman Technique</h2>
                 <p class="feynman__subtitle">Learn without forgetting.</p>
                 <a href="#" class="feynman__link link__animation">More →</a>
@@ -176,16 +173,16 @@
             
             <section class="khan">
                 <div class="khan__container">
-                    <h3 class="khan__author">Salman Khan</h3>
+                    <p class="khan__author">Salman Khan</p>
                     <h2 class="khan__title">The One World Schoolhouse</h2>
                     <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of
                         students worldwide. The One World Schoolhouse is a must-read for all
                         who are committed to improving education so students everywhere can
                         gain the skills and knowledge to be successful in school, careers and life.</p>
-                    <h4 class="khan__quote-author">George Lucas</h4>
+                    <p class="khan__quote-author">George Lucas</p>
                     <p class="khan__quote-author-subline">Filmmaker</p>
                     <div class="khan__book-container">
-                        <div class="khan__book-pic"></div>
+                        <img src="images/book.png" alt="Book" class="khan__book-pic">
                         <a href="#" class="khan__buy-link link__animation">Buy book →</a>
                     </div>
                 </div>
@@ -237,18 +234,18 @@
                         <p class="table__text table__text_theme_dark">Emphasize quantity and speed.</p>
                     </div>
                 </div>
-                <img src="images/triangle.svg" alt="Kaufman" class="kaufman__triangle">
+                <img src="images/triangle.svg" alt="Kaufman" class="kaufman__triangle rotation">
             </section>
             
             <section class="resources">
-                <h2 class="section-title">seful resources</h2>
+                <h2 class="section-title">Useful resources</h2>
                 <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
-                <div class="resources__logo-zone">
-                    <img src="images/logo/tedED.png" alt="tedED" class="resources__logo">
-                    <img src="images/logo/Medium.png" alt="Medium" class="resources__logo">
-                    <img src="images/logo/dezeen.png" alt="dezeen" class="resources__logo">
-                    <img src="images/logo/goodreads.png" alt="goodreads" class="resources__logo">
-                </div>
+                <ul class="resources__logo-zone">
+                    <li class="resources__logo"><img src="images/logo/tedED.png" alt="tedED" class="resources__logo-img"></li>
+                    <li class="resources__logo"><img src="images/logo/Medium.png" alt="Medium" class="resources__logo-img"></li>
+                    <li class="resources__logo"><img src="images/logo/dezeen.png" alt="dezeen" class="resources__logo-img"></li>
+                    <li class="resources__logo"><img src="images/logo/goodreads.png" alt="goodreads" class="resources__logo-img"></li>
+                </ul>
             </section>
         </main>
         

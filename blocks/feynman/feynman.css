@@ -8,6 +8,7 @@
     padding-top: 100px;
     height: 890px;
     position: relative;
+    box-sizing: border-box;
 }
 /* feynman css end */
 
